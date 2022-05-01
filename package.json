@@ -1,0 +1,23 @@
+{
+  "name": "today-house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db": "json-server --watch ./db.json --port 1234"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJSEONG/today-house.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JJSEONG/today-house/issues"
+  },
+  "homepage": "https://github.com/JJSEONG/today-house#readme",
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}
