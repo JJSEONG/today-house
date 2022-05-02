@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/global-colors.css" />
     <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/posts.css" />
+    <link rel="stylesheet" href="./css/post-detail.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;400;700;900&display=swap"
       rel="stylesheet"
@@ -26,10 +26,7 @@
             viewBox="0 0 24 24"
             preserveAspectRatio="xMidYMid meet"
           >
-            <path
-              fill="#35c5f0"
-              d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"
-            ></path>
+            <path fill="#35c5f0" d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"></path>
           </svg>
         </div>
 
@@ -65,7 +62,7 @@
             width="24"
             height="24"
             viewBox="0 0 24 24"
-            stroke="transparent"
+            stroke="#transparent"
             fill="none"
             stroke-linejoin="round"
             stroke-width="2"
@@ -80,17 +77,30 @@
         </div>
       </div>
     </nav>
+    <section class="banner-container">
+      <img class="cover-image" alt="커버 이미지">
+    </img>
+    </section>
 
-    <section class="posting-container">
+    <section class="content-container">
       
+    </section>
+
+
+    <section class="main-contents-container">
+      <div class="contents-wrapper">
+        <p class="post-content">
+          
+        </p>
+      </div>
     </section>
     <div class="side-bar">
       <a href="/index.html">HOME</a>
-      <a href="/posts.html">집들이</a>
+      <a href="/post-list.html">집들이</a>
       <a href="/write.html">글작성</a>
     </div>
     <div class="back-drop"></div>
     <script src="./src/index.js" type="module"></script>
-    <script src="./src/posts.js" type="module"></script>
+    <script src="./src/postDetail.js" type="module"></script>
   </body>
 </html>
